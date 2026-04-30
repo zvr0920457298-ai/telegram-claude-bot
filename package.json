@@ -1,13 +1,14 @@
 {
-  "name": "telegram-claude-bot",
-  "version": "1.0.0",
-  "description": "Telegram bot powered by Claude AI",
+  "name": "ai-investment-bot",
+  "version": "2.0.0",
+  "description": "AI Trading Bot with OKX integration",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
-    "node-telegram-bot-api": "^0.66.0"
+    "node-telegram-bot-api": "^0.66.0",
+    "axios": "^1.6.0"
   }
 }
