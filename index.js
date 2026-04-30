@@ -327,7 +327,6 @@ bot.on("message", async (msg) => {
 });
 
 // ===== 每15分鐘自動分析 =====
-setInterval(runAnalysis, 15 * 60 * 1000);
-
+setInterval(runAnalysis, 60 * 60 * 1000);
 // 啟動時先分析一次
 setTimeout(runAnalysis, 5000);
